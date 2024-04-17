@@ -1,38 +1,80 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-component {
+  text-align: center;
+  border: solid 3px rgb(0 0 0);
+  font-family: cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.margin-component {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-component input {
+  border: solid 3px rgb(0 0 0);
 }
 
-.App-link {
-  color: #61dafb;
+.inline-content {
+  width: 100%;
+  height: 50px;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inline-content .select-field,
+.inline-content .text-field {
+  display: inline-block;
+  width: 80%;
+  height: 36px;
+  border: solid 4px rgb(0 0 0);
+  border-radius: 2px;
+  float: right;
+}
+
+
+.select-field option {
+  width: 200px;
+  background-color: white;
+  border:solid 3px;
+}
+
+.select-field option:hover {
+    width: 150px;
+    background-color: blue;
+}
+
+.custom-button {
+  border: solid 3px rgb(0 0 0);
+  box-shadow: 6px 4px 1px rgb(0 0 0);
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.inline-content .label-field {
+  display: inline-block;
+  width: 12%;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.separator {
+  margin-top: 100px;
+}
+
+.custom-table {
+  border: solid 3px rgb(0 0 0);
+}
+
+.custom-table tr th,
+.custom-table tr td {
+  height: 35px;
+  border-right: solid 3px rgb(0 0 0);
+  text-align: left;
+  padding-left: 5px;
+  width: 50%;
 }
