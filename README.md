@@ -1,17 +1,15 @@
-# react-interview-q1
+# React Interview Question 1 - Form Component
 
-## Instructions
+## Choices Explained
+### Folder Structure
+Created a folder named solution to contain all the code related to the task. 
+Inside the solution folder, created a subfolder named components to organize the React components.
+Only one component, FormComponent, was created for this task.
 
-Fork this repo first into your own github account. Make sure to thoroughly read the instructions and implement the react component to meet the provided requirements. Send back a link to your cloned repo. You are expected to make implementation choices around customer experience and efficiency. Please make sure to explain your choices in comments.
+### Instructions for Running the Application
+To run the application:
 
-## Requirements
-
-Please build the following form component
-![form component mock](./mock.png)
-
-* Name input should be validated using the provided mock API to check whether the chosen name is taken or not.
-* Name input should be validated as the user is typing.
-* Location dropdown options should be fetched using the provided mock API.
-* Component should have a responsive layout
-* Component should be appropriately styled
-* Unit tests are not required
+* Clone this repository to your local machine.
+* Navigate to the solution folder.
+* Install dependencies by running npm install.
+* Start the development server with npm start.
